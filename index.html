@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>VUE.JS</title>
+	<!-- bootstrap 4 -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="my.css">
+</head>
+<body>
+	<div id="cont" class="container">
+		<div class="row">
+			<div v-for="element in mapBlocks" class="block col-xl-3 col-md-6 col-12 "><h1>{{ element.name + element.id }}</h1></div>
+		</div>
+	</div>
+
+		<!-- vue.js -->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="vue.js"></script>
+</body>
+</html>
