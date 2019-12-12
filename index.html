@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta name="viewport" content="width=device-width">
 	<meta charset="UTF-8">
 	<title>VUE.JS</title>
 	<!-- bootstrap 4 -->
@@ -10,7 +11,7 @@
 <body>
 	<div id="cont" class="container">
 		<div class="row">
-			<div v-for="element in mapBlocks" class="block col-xl-3 col-md-6 col-12 "><h1>{{ element.name + element.id }}</h1></div>
+			<div v-for="element in mapBlocks" class="block col-12 col-md-6 col-xl-3"><h1>{{ element.name + element.id }}</h1></div>
 		</div>
 	</div>
 
