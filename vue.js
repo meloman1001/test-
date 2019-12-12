@@ -47,7 +47,7 @@ new Vue({
   methods: {
     updateMap() {
       this.width = window.innerWidth;
-      window.innerWidth > 767?this.mapBlocks = blocks:this.mapBlocks = filterBlocks;
+      window.innerWidth > 576?this.mapBlocks = blocks:this.mapBlocks = filterBlocks;
             
     },
   },
